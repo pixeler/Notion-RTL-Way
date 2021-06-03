@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notion RTL way",
+  "version": "0.1.0",
+  "description": "We need the notion.so as a RTL!",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.notion.so/*"]
+  }]
+
+}
